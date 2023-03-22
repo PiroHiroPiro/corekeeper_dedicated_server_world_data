@@ -10,7 +10,7 @@ $Script:CoreKeeperDedicatedServerSaveDataPath = "C:\Users\pirop\AppData\LocalLow
 # Log File Path
 $Script:LogFilePath = "$Script:CoreKeeperDedicatedServerSaveDataPath\SaveData.log"
 # -season (0:None 1:Easter 2:Halloween 3:Christmas)
-$Script:Season = 2
+$Script:Season = 1
 
 # CoreKeeper arguments
 $Script:CoreKeeperArguments = @("-batchmode", "-logfile", "CoreKeeperServerLog.txt", "-season", "$Script:Season")
