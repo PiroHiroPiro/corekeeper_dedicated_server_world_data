@@ -9,8 +9,8 @@ $Script:CoreKeeperDedicatedServerProgramPath = "C:\Users\pirop\steamcmd\steamapp
 $Script:CoreKeeperDedicatedServerSaveDataPath = "C:\Users\pirop\AppData\LocalLow\Pugstorm\Core Keeper\DedicatedServer"
 # Log File Path
 $Script:LogFilePath = "$Script:CoreKeeperDedicatedServerSaveDataPath\SaveData.log"
-# -season (0:None 1:Easter 2:Halloween 3:Christmas)
-$Script:Season = 0
+# -season (0:None 1:Easter 2:Halloween 3:Christmas 4:Valentine)
+$Script:Season = 4
 
 # CoreKeeper arguments
 $Script:CoreKeeperArguments = @("-batchmode", "-logfile", "CoreKeeperServerLog.txt", "-season", "$Script:Season")
