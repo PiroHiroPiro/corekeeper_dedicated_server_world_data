@@ -17,7 +17,7 @@ $Script:LogFilePath = "$Script:CoreKeeperDedicatedServerSaveDataPath\SaveData.lo
 # 4:Valentine
 # 5:Anniversary
 # 6:Cherry blossom
-$Script:Season = 6
+$Script:Season = 7
 
 # CoreKeeper arguments
 $Script:CoreKeeperArguments = @("-batchmode", "-logfile", "CoreKeeperServerLog.txt", "-season", "$Script:Season")
